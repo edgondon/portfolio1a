@@ -3,7 +3,7 @@
 }
 
 body {
-background-color: rgb(213, 226, 233);
+background-color: rgb(119, 191, 230);
 display: flex;
 flex-direction: column;
 margin: 0;
@@ -52,9 +52,90 @@ li:hover {
   }
 
 section {
-    background-color: blue;
+    background-color: rgb(224, 206, 224);
 } 
 
 .foot {
     bottom: 0;
 }
+
+.pic {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 5px solid yellow;
+}
+
+.yy {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    font-size: 16px;
+}
+
+
+.portfolio {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 5px solid yellow;
+}
+
+.skills {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 5px solid yellow;
+}
+
+
+
+.port {
+    color: rgb(97, 42, 42);
+    text-decoration: none;
+    font-size: 16px;
+    background-color: aliceblue;
+}
+
+.portA {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.portB {
+    margin-bottom: 20px;
+}
+
+.foot {
+    margin-top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(119, 191, 230);
+    color: black;
+    text-align: center;
+  }
