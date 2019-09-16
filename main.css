@@ -6,8 +6,7 @@ body {
 background-color: rgb(119, 191, 230);
 display: flex;
 flex-direction: column;
-margin: 0;
-padding: 0;
+
 }
 
 h1 {
@@ -132,10 +131,34 @@ section {
 
 .foot {
     margin-top: 100px;
-    left: 0;
     bottom: 0;
     width: 100%;
+    height: auto;
     background-color: rgb(119, 191, 230);
     color: black;
+}
+
+.contta {
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 60px;
     text-align: center;
-  }
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.three {
+    display: flex;
+    background-color: rgb(119, 191, 230);
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
