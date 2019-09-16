@@ -5,11 +5,14 @@ $(document).ready(function () {
     $('.about').hide();
     $('.portfolio').hide();
     $('.skills').hide();
+    $('.return').hide();
 
 
     function aboutMe() {
         $('.triange').click(function () { 
             $('.about').show();
+            $('.return').show();
+            $('.fullpage').hide();
 
         });
     };
@@ -17,6 +20,8 @@ $(document).ready(function () {
     function portfoo() {
         $('.circle').click(function () { 
             $('.portfolio').show();
+            $('.return').show();
+            $('.fullpage').hide();
 
         });
     };
@@ -24,11 +29,23 @@ $(document).ready(function () {
     function skills() {
         $('.rectangle').click(function () { 
             $('.skills').show();
+            $('.return').show();
+            $('.fullpage').hide();
 
         });
     };
 
+    function reset() {
+        $('.ret').click(function () { 
+            $('.about').hide();
+            $('.portfolio').hide();
+            $('.skills').hide();
+            $('.return').hide();
+            $('.fullpage').show();
 
+
+        });
+    };
 
 
 
@@ -43,6 +60,7 @@ $(document).ready(function () {
         aboutMe();
         portfoo();
         skills();
+        reset();
     }
 
     $(makePage);
