@@ -6,6 +6,8 @@ body {
 background-color: rgb(213, 226, 233);
 display: flex;
 flex-direction: column;
+margin: 0;
+padding: 0;
 }
 
 h1 {
@@ -23,14 +25,36 @@ h2 {
 }
  
 nav {
-    position: relative;
+    width: 180px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
 }
 
+
+li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 100%;
+    list-style-type: none;
+    border-bottom: 1px solid #555;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    margin-bottom: 10px;
+}
+
+li:hover {
+    background-color: #555;
+    color: white;
+  }
 
 section {
     background-color: blue;
 } 
 
-footer {
-    display: inline;
+.foot {
+    bottom: 0;
 }
