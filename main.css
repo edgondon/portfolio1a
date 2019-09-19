@@ -177,7 +177,7 @@ section {
 
     .return {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         width: 100%;
         padding: 0;
         margin-left: 0;
@@ -245,7 +245,7 @@ section {
 
     .return {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         width: 100%;
         padding: 0;
         margin-left: 0;
