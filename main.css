@@ -166,6 +166,17 @@ section {
         background-color: white;
     }
 
+    
+    .fullpage {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-top: 100px;
+
+    }
+
     nav {
         width: 180px;
         margin-top: 10px;
@@ -235,6 +246,7 @@ section {
    
     .fullpage {
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
         width: 100%;
         padding: 0;
