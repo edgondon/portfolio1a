@@ -77,7 +77,13 @@ section {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: rgb(119, 191, 230);
+    
+}
+
+.items {
     border: 5px solid yellow;
+    margin-bottom: 100px;
 }
 
 .skills {
